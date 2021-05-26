@@ -1,0 +1,80 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+/* font link up */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+header{
+	background-color:#30336b;
+	padding: 20px 0;
+}
+.container{
+	width: 70%;
+	margin: auto;
+}
+.navigation-menu{
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	float: right;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 65%;
+	margin: 32px 0 ;
+}
+.menu nav ul{
+	float: left ;
+}
+.menu nav ul li{
+	list-style: none;
+	float: right;
+}
+.menu nav ul li a{
+	font-size: 16px;
+	font-weight: 600;
+	color:#f5f6fa;
+	line-height: 26px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 30px;
+	transition: .3s;
+}
+.menu nav ul li:last child a{
+    padding: left 0;
+}
+.menu nav ul li a:hover{
+    color:#22a6b3;
+}
+.menu-button{
+ 	width: 15px%;
+	float: left;
+	overflow: hidden;
+	margin: 15px 0;
+
+}
+.menu-button a{
+	font-size: 16px;
+	line-height: 50px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 600;
+	color:#f5f6fa;
+	text-align: center;
+	border-radius: 50px;
+	display: block;
+	padding:16px 30px;
+	background-color:#6ab04c;
+	float: right;
+	transition: .3s;
+}
+.menu-button a:hover{
+	background-color:#22a6b3;
+}
